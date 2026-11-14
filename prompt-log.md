@@ -43,3 +43,47 @@
 
 
 
+
+
+## Stage 3 — FX Hedging Model Build and Audit
+
+**Date:** November 13, 2026  
+**AI Tool:** ChatGPT  
+**Scenario:** 31 — Turbine-Gearbox
+
+### Prompt 1 — Understanding the Model Requirements
+
+**Purpose:** I used AI to help me understand the Stage 3 requirements and how to apply my Stage 2 specification to an Excel workbook.
+
+**AI Assistance:** AI helped explain the workbook structure, required calculations, named ranges, and validation checks. I used this guidance along with my Stage 2 specification to understand how the different hedging strategies should be organized.
+
+**Decision:** Used the guidance as a reference when reviewing the workbook requirements.
+
+### Prompt 2 — Excel Model Development
+
+**Purpose:** I used AI to assist with building the Excel workbook based on my Stage 2 specification.
+
+**AI Assistance:** AI generated an initial Excel workbook using the formulas and assumptions outlined in my specification. I reviewed the workbook to better understand how the forward contract, money-market hedge, and currency put option calculations worked.
+
+**Decision:** Used the workbook as a starting point and reviewed its calculations and organization.
+
+### Prompt 3 — Reviewing Calculations and Troubleshooting
+
+**Purpose:** I wanted to check whether the workbook calculations were consistent with my original specification.
+
+**AI Assistance:** AI helped explain the results of the three hedging strategies and identify potential issues. During the review, I noticed areas requiring attention, including currency formatting, text visibility, and differences between the quoted and implied forward rates.
+
+**Decision:** Used the feedback to evaluate the workbook and identify areas for improvement.
+
+### Prompt 4 — Build Audit Analysis
+
+**Purpose:** I used AI as a reference to help organize my audit findings and understand how to document the results.
+
+**AI Assistance:** AI helped explain the importance of checking formulas, assumptions, sensitivity analysis, and formatting. I reviewed the identified issues and documented the observations in my Stage 3 audit report.
+
+**Decision:** Used the explanations and audit structure to support my analysis.
+
+### Reflection
+
+For Stage 3, I used AI as a resource to help me understand the financial concepts, review calculations, and troubleshoot potential issues. It was especially helpful when working with the money-market hedge, option premium calculations, and sensitivity analysis. I also learned the importance of reviewing AI-generated outputs instead of assuming everything is correct. This stage helped me better understand how the different hedging strategies work and how to evaluate an Excel model for accuracy and consistency.
+
