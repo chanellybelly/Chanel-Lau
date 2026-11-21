@@ -77,26 +77,86 @@ borrowing and investment rates.
 - The receivable amount and settlement period remain
   unchanged.
 
+
 ## 5. Covered Interest Parity
+
+Using the updated market inputs and the ACT/360
+convention, the CIP-implied forward rate was calculated.
 
 F_CIP = S0 × (1 + R_USD × T/360)
            / (1 + R_FC × T/360)
 
-The CIP-implied forward will be calculated and compared
-with the assigned bank forward quote of 1.1807.
+| Calculation | Result |
+|---|---:|
+| CIP-implied forward rate | 1.1154 |
+| Assigned bank forward rate | 1.1807 |
+| Quoted minus implied forward | 0.0653 |
+| Money-market vs. forward USD difference | -$646,632.42 |
+
+The parity comparison displays "REVIEW MARKET ASSUMPTIONS"
+because the assigned forward rate exceeds the implied
+forward rate. This difference may reflect differences in
+market observation dates, interest rate proxies, and
+bank pricing. The assigned forward quote was retained.
 
 ## 6. Workbook Population
 
-Pending workbook update.
+The Stage 3 workbook was updated using the selected
+market data. The spot rate, USD interest rate, EUR
+interest rate, and option strike prices were updated.
+
+The assigned receivable amount, settlement period,
+forward quote, and option premiums remained unchanged.
+
+| Hedge Calculation | Updated Result |
+|---|---:|
+| Forward hedge | $11,688,930.00 |
+| Money-market hedge | $11,042,297.58 |
+| Gross put-protected proceeds | $10,880,100.00 |
+| Financed put premium | $253,640.94 |
+| Net put proceeds | $10,626,459.06 |
+
+The updated workbook was saved as model.xlsx.
 
 ## 7. Parity and Sensitivity Checks
 
-Pending workbook validation.
+The sensitivity table was recalculated using 11
+exchange rate scenarios ranging from -5% to +5%
+of the updated spot rate.
+
+| Validation Check | Result |
+|---|---|
+| 11 scenarios | PASS |
+| Endpoints -5% / +5% | PASS |
+| Forward remains fixed | PASS |
+| Money-market hedge remains fixed | PASS |
+| Put rises above strike | PASS |
+
+The forward and money-market hedge proceeds remained
+constant across all scenarios. The put option provided
+downside protection while allowing the company to
+benefit from favorable exchange rate movements.
 
 ## 8. FX Hedging Lab Cross-Check
 
-Pending comparison with the FX Hedging Lab.
+The updated workbook results were compared with the
+FX Hedging Lab using the same scenario inputs.
+
+The forward hedge, money-market hedge, and put option
+results were consistent with the workbook calculations.
+
+No significant calculation discrepancies were identified
+during the comparison.
 
 ## 9. Conclusion
 
-To be completed after validating the workbook.
+The workbook was successfully populated with updated
+market inputs. The hedge calculations were reviewed,
+and all five sensitivity checks passed.
+
+The difference between the assigned forward quote and
+the CIP-implied forward rate was identified and
+documented rather than adjusted.
+
+The updated model provides a foundation for evaluating
+the alternative hedging strategies in Stage 5.
