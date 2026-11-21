@@ -87,3 +87,45 @@
 
 For Stage 3, I used AI as a resource to help me understand the financial concepts, review calculations, and troubleshoot potential issues. It was especially helpful when working with the money-market hedge, option premium calculations, and sensitivity analysis. I also learned the importance of reviewing AI-generated outputs instead of assuming everything is correct. This stage helped me better understand how the different hedging strategies work and how to evaluate an Excel model for accuracy and consistency.
 
+
+
+
+## Stage 4 — Market Data and Population
+
+**Date:** November 20, 2026
+
+**AI Tool:** ChatGPT
+
+### Purpose
+I used ChatGPT and AI as supporting resources to research
+relevant market data, identify reliable financial sources,
+and strengthen my understanding of foreign exchange
+hedging and covered interest parity.
+
+### Research and Learning
+- Identify reliable sources for exchange rates and
+  international interest rates.
+- Understand the reasoning behind selecting appropriate
+  interest rate proxies.
+- Clarify the covered interest parity formula and its
+  application to the assigned scenario.
+- Gain a better understanding of sensitivity analysis
+  and financial model validation.
+
+### Application and Verification
+I applied the market data to my existing Excel workbook
+and reviewed the updated hedge calculations. AI served
+as an additional reference when reviewing the results
+and understanding the difference between the assigned
+bank forward rate and the CIP-implied forward rate.
+
+I also compared the workbook results with the FX Hedging
+Lab and reviewed the sensitivity checks.
+
+### Reflection
+Stage 4 strengthened my understanding of how market
+conditions affect foreign exchange hedging strategies.
+Using AI as a supporting resource helped me better
+understand the financial concepts, identify relevant
+research sources, and recognize the importance of
+validating and documenting market assumptions.
